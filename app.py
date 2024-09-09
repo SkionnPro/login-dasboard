@@ -88,8 +88,8 @@ def register_user():
         cursor = connection.cursor()
 
         # Insert the data into the MySQL database, with client_id and client_secret as NULL
-        query = """INSERT INTO clients (first_name, last_name, register_as, company_name, email, mobile_number, password, client_id, client_secret)
-                   VALUES (%s, %s, %s, %s, %s, %s, %s, NULL, NULL)"""
+        query = """INSERT INTO clients (first_name, last_name, register_as, company_name, email, mobile_number, password)
+                   VALUES (%s, %s, %s, %s, %s, %s, %s)"""
         values = (first_name, last_name, register_as, company_name, email, mobile_number, password)
         cursor.execute(query, values)
         connection.commit()
