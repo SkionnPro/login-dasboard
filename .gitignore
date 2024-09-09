@@ -1,0 +1,27 @@
+# Ignore build artifacts
+build/
+
+# Ignore logs
+logs/
+
+# Ignore environment variables file
+.env
+
+# Ignore configuration files that are not meant to be versioned
+config.yaml
+
+# Ignore IDE-specific files
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode files and __pycache__ directories
+__pycache__/
+*.pyc
+
+# Ignore any temporary files
+*.tmp
+
+# Ignore other system files
+Thumbs.db
