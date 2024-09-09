@@ -1,6 +1,6 @@
 db_config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'Devilup@123',
+    'user': 'enter your mySQL username',
+    'password': 'enter your password',
     'database': 'client_registrations'
 }

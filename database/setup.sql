@@ -9,7 +9,5 @@ CREATE TABLE IF NOT EXISTS clients(
   company_name VARCHAR(100),
   email VARCHAR(100) UNIQUE,
   mobile_number VARCHAR(15),
-  password VARCHAR(255),
-  client_id VARCHAR(100) DEFAULT NULL,
-  client_secret VARCHAR(100) DEFAULT NULL
+  password VARCHAR(255)
 );
